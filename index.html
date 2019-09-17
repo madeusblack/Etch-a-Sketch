@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>ETCH-A-SKETCH</title>
+    <script ></script>
+</head>
+<body class="body" onload="rowmaker(16)">
+    <div id="headpage">
+        <h1 id="title">ETCH-A-SKETCH</h1>
+    </div> 
+    <div id="appUI" >
+        <p id="collabel">Select the number of <br>rows and columns</p>
+        <input type="number" name="rowsandcolums" min="16" max="64" id="rowsandcolums" placeholder="16"><br>
+        <button onclick="rowmaker(document.getElementById('rowsandcolums').value)" id="rowbut">Generate</button><br>
+        <button onclick="rowmaker(16)" id="rowreset">Reset Grid</button>
+        <h5 id="labelpens">Tools</h5>
+        <div class="tools">
+        <input type="radio" name="painting"  value="pen" checked id="pensel" onclick="penselect(document.getElementById('pensel').value)">
+        <label for="pensel" class="radius"> Pen</label><br>
+        <input type="radio" name="painting" class="radius" value="brush" id="pensel1" onclick="penselect(document.getElementById('pensel1').value)">
+        <label for="pensel1" class="radius"> Brush</label><br>
+        <input type="radio" name="painting" class="radius" value="eraser" id="pensel2" onclick="penselect(document.getElementById('pensel2').value)">
+        <label for="pensel2" class="radius"> Eraser</label><br>
+        <input type="radio" name="painting" class="radius" value="rainbow" id="pensel3" onclick="penselect(document.getElementById('pensel3').value)">
+        <label for="pensel3" class="radius"> Rainbow</label>
+        </div>
+    </div>   
+    <div id="appMain"></div>
+ 
+    <div id="footer"></div>
+
+
+
+</body>

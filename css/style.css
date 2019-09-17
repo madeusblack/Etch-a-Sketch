@@ -1,0 +1,110 @@
+#headpage{
+	text-align: center;
+	padding-top: 50px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#appMain{
+    position: relative;
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+    margin:auto;
+    margin-bottom:100px;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+	
+
+}
+#appUI{
+    margin-right: 10px;
+	display: inline;
+	position: fixed;
+
+
+}
+#footer{
+
+}
+.divrow{
+
+    margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+	background: rgb(255, 255, 255)
+}
+#collabel{
+	font-size: 17px;
+	border:3px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 12px;
+	text-align: center;
+	font-weight: bolder;
+	background:#0772A1;
+	color:white;
+
+
+
+
+}
+#rowsandcolums{
+	margin-left: 36px;
+	text-align: center;
+	width: 91px;
+	border-radius: 12px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+	
+
+}
+#rowbut{
+	margin-left: 35px;
+	width: 100px;
+	border-radius: 12px;
+	margin-bottom: 5px;
+	background:#FF8700
+
+}    
+#rowreset{
+	margin-left: 35px;
+	width: 100px;
+	border-radius: 12px;
+	background:#FF8700
+
+
+}
+#labelpens{
+	border:3px solid black;
+	border-radius: 12px;
+	text-align: center;
+	font-size: 24px;
+	color:white;
+
+
+background:#0772A1
+
+}
+.body{
+	background:#00B74A;
+}
+.radius{
+	font-size:24px;
+}
+#title{
+	border:3px solid black;
+	width: 300px;
+	margin-left: 500px;
+	background: #0772A1;
+	border-radius: 12px;
+	color:white;
+}
+.tools{
+	border:3px solid #0772A1;
+	border-radius: 12px;
+	background:#FF8700;
+
+}
